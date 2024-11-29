@@ -1,0 +1,152 @@
+@font-face {
+    font-family: Inter Tight, sans-serif ;
+    src: url(../assets/fonts/InterTight-SemiBold.ttf);
+}
+
+
+@font-face {
+    font-family: Inter Tight, sans-serif ;
+    src: url(../assets/fonts/InterTight-Thin.ttf);
+}
+
+@font-face {
+    font-family: Inter Tight, sans-serif  ;
+    src: url(../assets/fonts/InterTight-Medium.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+body{
+font-family: Inter Tight, sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+.list-reset{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+a{
+    
+    text-decoration: none;
+}
+
+.btn{
+border-radius: 30px;
+}
+
+
+.header{
+    width: 100%;
+   position: absolute;
+   margin: 32px auto ;
+   background-color: transparent;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-left: 100px;
+   width: 15vh;
+
+}
+
+.nav-list{
+    display: flex;
+    gap: 8px;
+   
+}
+
+
+.nav__item{
+    
+    color: rgba(251, 251, 251, 0.4);
+    border: solid 1px ;
+    width: 114px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.nav__item_violet{
+    margin-right: 100px;
+   
+}
+
+.nav-btn{
+    background-color: rgba(122, 49, 69, 1);
+    border: solid 1px transparent;
+    border-radius: 30px;
+    width: 157px;
+    height: 52px;
+}
+
+.btn-link{
+    font-family: Inter Tight, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    color: white;
+}
+
+.nav-link{
+    font-family: Inter Tight, sans-serif;
+    font-weight:400;
+    font-size: 16px;
+    color: white ;
+}
+
+
+
+.hero{
+    background-color: rgba(87, 111, 53, 1);
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.hero-wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 502px;
+    height: 562px;
+    margin-left: 100px;
+    margin-top: 134px;
+
+
+}
+
+.hero-title{
+    font-family: Inter Tight, sans-serif;
+    font-weight: 900;
+    color: white;
+    font-size:76px;
+    text-transform: uppercase;
+    
+}
+
+.hero-descr{
+    font-family: Inter Tight, sans-serif;
+    font-size:16px;
+    color: white;
+    font-weight: 400;
+
+}
