@@ -3,73 +3,62 @@
     src: url(../assets/fonts/InterTight-SemiBold.ttf);
 }
 
-
-@font-face {
-    font-family: Inter Tight, sans-serif ;
-    src: url(../assets/fonts/InterTight-Thin.ttf);
-}
-
-@font-face {
-    font-family: Inter Tight, sans-serif  ;
-    src: url(../assets/fonts/InterTight-Medium.ttf);
-}
-
 * {
     box-sizing: border-box;
 }
 
 
-body{
+body {
 font-family: Inter Tight, sans-serif;
 }
 
-img{
+img {
     max-width: 100%;
 }
 
-.list-reset{
+.list-reset {
     margin: 0;
     padding: 0;
     list-style-type: none;
 }
 
 
-a{
+a {
     
     text-decoration: none;
 }
 
-.btn{
+.btn {
 border-radius: 30px;
 }
 
 
-.header{
+
+.header {
     width: 100%;
-   position: absolute;
-   margin: 32px auto ;
-   background-color: transparent;
+    position: absolute;
+    margin: 32px auto ;
+    background-color: transparent;
 }
 
-.wrapper{
+.wrapper {
     display: flex;
     justify-content: space-between;
 }
 
-.logo{
+.logo {
     margin-left: 100px;
-   width: 15vh;
+    width: 15vh;
 
 }
 
-.nav-list{
+.nav-list {
     display: flex;
     gap: 8px;
-   
 }
 
 
-.nav__item{
+.nav__item {
     
     color: rgba(251, 251, 251, 0.4);
     border: solid 1px ;
@@ -81,27 +70,29 @@ border-radius: 30px;
     border-radius: 12px;
 }
 
-.nav__item_violet{
-    margin-right: 100px;
-   
+.nav__item :hover{
+  
+    color: #c3d46c;
+    
 }
 
-.nav-btn{
+.nav__item_violet {
+    margin-right: 100px;
+}
+
+.nav-btn {
     background-color: rgba(122, 49, 69, 1);
     border: solid 1px transparent;
     border-radius: 30px;
     width: 157px;
     height: 52px;
-}
-
-.btn-link{
-    font-family: Inter Tight, sans-serif;
-    font-weight: lighter;
-    font-size: 20px;
+    cursor: pointer;
     color: white;
 }
 
-.nav-link{
+
+
+.nav-link {
     font-family: Inter Tight, sans-serif;
     font-weight:400;
     font-size: 16px;
@@ -110,19 +101,19 @@ border-radius: 30px;
 
 
 
-.hero{
+.hero {
     background-color: rgba(87, 111, 53, 1);
     background-size: cover;
 }
 
-.container{
+.container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
     justify-content: space-between;
 }
 
-.hero-wrapper{
+.hero-wrapper {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -134,7 +125,7 @@ border-radius: 30px;
 
 }
 
-.hero-title{
+.hero-title {
     font-family: Inter Tight, sans-serif;
     font-weight: 900;
     color: white;
@@ -143,7 +134,7 @@ border-radius: 30px;
     
 }
 
-.hero-descr{
+.hero-descr {
     font-family: Inter Tight, sans-serif;
     font-size:16px;
     color: white;
