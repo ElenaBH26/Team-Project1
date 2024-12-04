@@ -196,7 +196,15 @@ border-radius: 30px;
     color: white;
     font-size: 16px;
     font-weight: 400;
+
 }
+/*Ниже Настины стили*/
+.title {
+    width: 1080px;
+    height: 240px;
+    background-color: rgba(87, 111, 53, 1);
+    }
+
 
 .list {
     display: flex;
