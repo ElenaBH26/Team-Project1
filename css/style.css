@@ -295,6 +295,7 @@ span {color: #FBFBFB;
 .list-span {
     color: black; 
     font-weight: bold;
+    background-color: transparent;
 }
 
 .list-steps {
