@@ -292,6 +292,10 @@ span {color: #FBFBFB;
     font-family: "Inter Tight-Medium", sans-serif ;
 }
 
+.list-span {
+    color: black; 
+    font-weight: bold;
+}
 
 .list-steps {
     display: flex;
