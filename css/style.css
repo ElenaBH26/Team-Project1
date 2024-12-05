@@ -52,6 +52,8 @@ border-radius: 30px;
 .wrapper {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
+
 }
 
 .logo {
@@ -60,9 +62,38 @@ border-radius: 30px;
 
 }
 
+.burger-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 26.67px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.line {
+    background-color: white;
+    margin: 3px 0;
+}
+
+.line-long {
+    width: 26px;
+    height: 4px;
+    border-radius: 10px;
+}
+
+.line-short {
+    width: 15px;
+    border-radius: 10px;
+    height: 4px;
+}
+
 .nav-list {
     display: flex;
     gap: 8px;
+    position: relative;
+    z-index: 1;
 }
 
 .nav__item {
@@ -138,13 +169,21 @@ border-radius: 30px;
     
 }
 .right {
+    position: relative;
+    overflow: hidden;
     width: 50%;
     height: 100%;
     background-image: url(../assets/img_project/image3.jpg);
     background-size: cover;
     background-position: center;
 }
-
+.right::before {
+    content: ''; 
+    position: absolute; 
+    background: rgba(20, 20, 20, 0.2); 
+    mix-blend-mode: multiply; 
+    pointer-events: none; 
+}
 
 .guide {
     display: flex; 
@@ -232,7 +271,6 @@ border-radius: 30px;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
-    overflow-x: auto;
     gap: 29px;
     padding: 12px 25px 12px 24px;
     border: solid 1px white;

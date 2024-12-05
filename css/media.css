@@ -5,10 +5,22 @@
         display: none;
         
     }
-
+    .burger-menu {
+        display: block;
+    }
+    
+    .wrapper {
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+    .logo {
+        margin: 0;
+    }
     .hero-title {
     width: 704px;
     height: 228px;
+    font-size: 54px;
+
     }
 
     .hero {
@@ -17,15 +29,48 @@
 
     .right {
         width: 100%;
+        height: 539px;
 
     }
 
     .left {
-    width: 704px;
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    margin-top: 80px;
+    width: 100%;
     height: 313px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.guide {
+    flex-direction: column;
+
+}
+
+.green-block {
+width: 100%;
+}
+
+.purple-block {
+width: 100%;
+padding: 100px 64px 100px 64px;
+}
+
+.responsive-img {
+    width: 640px;
+    height: 640px;
+}
     }
 
+ 
 
+
+
+@media screen and  (min-width: 768px) {
+    .burger-menu {
+        display: none;
+    }
     
 }
 
