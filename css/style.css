@@ -206,10 +206,36 @@ border-radius: 30px;
 }
 /*Ниже Настины стили*/
 .title {
-    width: 1080px;
-    height: 240px;
-    background-color: rgba(87, 111, 53, 1);
+    font-size: 120px;
+    color: black;
+    background-color: #FBFBFB;
     }
+span {color: #FBFBFB;
+    background-color:#576F35;
+}
+.product-wrapper { 
+        display: block;
+        width: 100%;
+        float: left;
+    }
+.product {
+        display: block;
+        border: 1px solid #576F35;
+        position: relative;
+        background:#FBFBFB;
+        margin: 0 20px 20px 0;
+        text-decoration: none;
+        color: #474747;
+        z-index: 0;
+        height: 300px;
+    }
+        
+@media only screen and (min-width: 768px) {
+        .product-wrapper {
+            width: 33.333%;
+        }
+    }
+
 
 
 .list {
