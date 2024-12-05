@@ -1,0 +1,31 @@
+
+
+ @media screen and (max-width: 768px) {
+    .nav-list {
+        display: none;
+        
+    }
+
+    .hero-title {
+    width: 704px;
+    height: 228px;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .right {
+        width: 100%;
+
+    }
+
+    .left {
+    width: 704px;
+    height: 313px;
+    }
+
+
+    
+}
+

@@ -65,7 +65,6 @@ border-radius: 30px;
     gap: 8px;
 }
 
-
 .nav__item {
     
     color: rgba(251, 251, 251, 0.4);
@@ -117,11 +116,18 @@ border-radius: 30px;
 }
 .hero-title {
     font-family: "Inter Tight-SemiBold", sans-serif ;
-    font-weight: 900;
+    font-weight: 600;
     color: white;
     font-size:76px;
     text-transform: uppercase;
     margin: 0;
+}
+
+.hero-descr {
+    font-family: "Inter Tight-Medium", sans-serif ;
+    font-size:16px;
+    color: white;
+    font-weight: 400;
 }
 
 .left {
@@ -137,7 +143,6 @@ border-radius: 30px;
     background-image: url(../assets/img_project/image3.jpg);
     background-size: cover;
     background-position: center;
-    filter: brightness(0.7);
 }
 
 
@@ -173,6 +178,7 @@ border-radius: 30px;
     border-radius: 30px; 
     object-fit: cover;
     filter: brightness(0.7);
+
 }
 .green-block {
     background-color: rgb(87, 111, 53); 
