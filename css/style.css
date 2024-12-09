@@ -111,7 +111,7 @@ a {
 }
 
 .nav__item:hover {
-    color: #c3d46c;
+    background-color: rgba(122, 49, 69, 1);
 }
 
 .nav__item_violet {
@@ -128,6 +128,10 @@ a {
     height: 52px;
     cursor: pointer;
     color: white;
+}
+
+.nav-btn:hover {
+    background-color: #576F35;
 }
 
 
