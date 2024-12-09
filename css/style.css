@@ -256,4 +256,38 @@ border-radius: 30px;
     align-items: center;
 }
 
+/*Sasha*/
+.reviews-block {
+    background-color: rgba(251, 251, 251);
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 1280px;
+    height: 701px;
 
+}
+.reviews-block-h2 {
+    background-color: rgb(251, 251, 251);
+    flex: content;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 553px;
+    height: 193px;
+}
+
+.reviews-block-h2-h2  {
+    background-color: rgb(251, 251, 251);
+    flex: content;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 553px;
+    height: 128px; 
+    color:rgba(20, 20, 20, 0.6);
+    font-family: "Inter Tight-Medium", sans-serif ;
+    font-size: 64px;
+    font-weight: 600;
+    
+}
