@@ -360,7 +360,6 @@ a {
     width: 1280px;
     height: 701px;
 
-<<<<<<< HEAD
 }
 .reviews-block-h2 {
     background-color: rgb(251, 251, 251);
@@ -380,13 +379,11 @@ a {
     align-items: start;
     width: 553px;
     height: 128px; 
-    color:rgba(20, 20, 20, 0.6);
     font-family: "Inter Tight-Medium", sans-serif ;
     font-size: 64px;
     font-weight: 600;
     
 }
-=======
 .feedback {
     outline: 1px solid rgb(70, 138, 79);
 }
@@ -623,4 +620,3 @@ footer {
     width: 100%;
     font-size: 18px;
 }
->>>>>>> a80de9748ea5cd936bfd5526245a136ae1ca6665
