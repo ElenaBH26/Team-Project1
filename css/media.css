@@ -1,0 +1,149 @@
+
+
+ @media screen and (max-width: 768px) {
+    .nav-list {
+        display: none;
+        
+    }
+    .burger-menu {
+        display: block;
+    }
+    
+    .wrapper {
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+    .logo {
+        margin: 0;
+    }
+    .hero-title {
+    width: 704px;
+    height: 228px;
+    font-size: 54px;
+
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .right {
+        width: 100%;
+        height: 539px;
+
+    }
+
+    .left {
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    margin-top: 80px;
+    width: 100%;
+    height: 313px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.guide {
+    flex-direction: column;
+
+}
+
+.green-block {
+width: 100%;
+}
+
+.purple-block {
+width: 100%;
+padding: 100px 64px 100px 64px;
+}
+
+.responsive-img {
+    width: 640px;
+    height: 640px;
+}
+    }
+
+ 
+
+
+
+@media screen and  (min-width: 768px) {
+    .burger-menu {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 375px) {
+
+    .hero {
+        padding: 100px 0px 0px 0px;
+    }
+    .hero-title {
+        width: 335px;
+        height: 192px;
+        font-size: 12.80vw;
+        margin: 40px 0px;
+        }
+    .logo {
+        height: 3.20vw ;
+    }
+
+        .hero-descr {
+            font-size: 4.27vw;
+        }
+
+        .left {
+            display: flex;
+            gap: 20px;
+            flex-direction: column;
+            width: 100%;
+            height: auto;
+            padding-left: 20px;
+            padding-right: 20px;
+}
+
+    .wrapper {
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .right {
+        width: 100%;
+        min-height: 370px;
+    }
+
+.purple-block {
+    padding: 40px 20px 40px 20px;
+}
+
+.green-block {
+    padding: 80px 20px 80px 20px;
+}
+
+
+    .responsive-img {
+        width: auto;
+        height: 450px;
+    }
+    .guide-block {
+        width: auto;
+        height: 268px;
+        margin: 0;
+    }
+
+    .checklist-subtitle {
+        font-size: 7.47vw;
+    }
+    .explanation {
+        font-size: 3.73vw;
+    }
+    .list-steps {
+        width: 335px;
+        height: 76px;
+    }
+    .list-descr {
+        font-size: 3.20vw;
+    }
+    }
