@@ -356,10 +356,14 @@ a {
     width: 100%;
 }
 .vegetables-subtitle {
+    display: flex;
+    flex-direction: column;
     font-family: "Inter Tight-SemiBold", sans-serif;
     font-weight: bold;
     font-size: 64px;
     text-transform: uppercase;
+    margin-bottom: 25px;
+    margin-top: 0;
 }
 
 .vegetables-descr {
@@ -367,10 +371,13 @@ a {
     font-family: "Inter Tight-Medium", sans-serif;
     font-size: 16px;
     font-weight: 500;
+    margin-bottom: 50px;
+    
 }
 
 .cards {
     display: grid;
+    justify-items: center;
     grid-template-columns: 1fr 1fr 1fr;
     height: 786px;
     gap: 21px;
