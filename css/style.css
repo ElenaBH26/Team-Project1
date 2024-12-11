@@ -195,7 +195,6 @@ a {
 
 .guide {
     display: flex;
-    height: 100vh;
     width: 100%;
 }
 
@@ -255,18 +254,7 @@ a {
 
 }
 
-/*Ниже Настины стили*/
-.title {
-    font-size: 120px;
-    color: black;
-    background-color: #FBFBFB;
-}
 
-/* Из-за того что ты span-у дала стиль, остальные span тоже меняются */
-/* span {
-    color: #FBFBFB;
-    background-color: #576F35;
-} */
 
 .product-wrapper {
     display: block;
@@ -285,13 +273,6 @@ a {
     z-index: 0;
     height: 300px;
 }
-
-@media only screen and (min-width: 768px) {
-    .product-wrapper {
-        width: 33.333%;
-    }
-}
-
 
 
 .list {
@@ -348,6 +329,93 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.advertisement {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 440px;
+    padding: 100px;
+    
+}
+.discount-desckr {
+    font-family: "Inter Tight-Medium", sans-serif;
+    font-size: 76px;
+    text-transform: uppercase;
+    line-height: 80px;
+    letter-spacing: -1.5%;
+    text-align: left;
+    margin: 0;
+}
+
+.vegetables {
+    background-color: rgb(122, 49, 69);
+    padding: 100px;
+    width: 100%;
+}
+.vegetables-subtitle {
+    display: flex;
+    flex-direction: column;
+    font-family: "Inter Tight-SemiBold", sans-serif;
+    font-weight: bold;
+    font-size: 64px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    margin-top: 0;
+}
+
+.vegetables-descr {
+    color: rgb(251, 251, 251);
+    font-family: "Inter Tight-Medium", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    
+}
+
+.cards {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 786px;
+    gap: 21px;
+}
+
+.card-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 346px;
+    height: 379px;
+    background-color: #ffffff;
+    border-radius: 40px;
+    padding: 32px;
+}
+
+.card {
+    width: 282px;
+    height: 243px;
+    border: dashed 1px grey;
+}
+.card > img {
+    width: 252px;
+    height: 216px;
+}
+
+.card-subtitle {
+    color: rgb(122, 49, 69);
+    font-weight: 600;
+    font-size: 32px;
+    
+}
+
+.price {
+    font-family: "Inter Tight-Medium", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 /*Sasha*/
