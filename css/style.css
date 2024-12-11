@@ -384,6 +384,12 @@ a {
     font-weight: 600;
     
 }
+
+.reviews-block-h2-content{
+    flex-wrap: wrap;
+    font-size: 16px;
+    font-family: "Inter Tight-Medium", sans-serif;
+}
 .feedback {
     outline: 1px solid rgb(70, 138, 79);
 }
