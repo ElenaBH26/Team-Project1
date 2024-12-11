@@ -421,35 +421,32 @@ a {
 /*Sasha*/
 .reviews-block {
     background-color: rgba(251, 251, 251);
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    width: 1280px;
-    height: 701px;
+    padding: 100px;
+    width: 100%;
 
 }
 .reviews-block-h2 {
     background-color: rgb(251, 251, 251);
-    flex: content;
     display: flex;
-    justify-content: center;
-    align-items: start;
-    width: 553px;
-    height: 193px;
+    flex-direction: column;
+    font-family: "Inter Tight-SemiBold", sans-serif;
+    font-weight: bold;
+    font-size: 64px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    margin-top: 0;
 }
 
 .reviews-block-h2-h2  {
     background-color: rgb(251, 251, 251);
-    flex: content;
     display: flex;
-    justify-content: center;
-    align-items: start;
-    width: 553px;
-    height: 128px; 
-    font-family: "Inter Tight-Medium", sans-serif ;
+    flex-direction: column;
+    font-family: "Inter Tight-SemiBold", sans-serif;
+    font-weight: bold;
     font-size: 64px;
-    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    margin-top: 0
     
 }
 
@@ -457,6 +454,14 @@ a {
     flex-wrap: wrap;
     font-size: 16px;
     font-family: "Inter Tight-Medium", sans-serif;
+}
+
+.opinion {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 258px;
+    gap: 25px;
 }
 .feedback {
     outline: 1px solid rgb(70, 138, 79);
