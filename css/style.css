@@ -463,6 +463,29 @@ a {
     height: 258px;
     gap: 25px;
 }
+.opinion-card1,
+.opinion-card2,
+.opinion-card3 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 343px;
+    height: 258px;
+    background-color: #ffffff;
+    border-radius: 40px;
+    padding: 32px;
+    border-color: rgba(122, 49, 69, 0.3);
+    
+}
+.name-card1,
+.name-card2, 
+.name-card3 {
+display: inline;
+justify-content: center;
+font-size: 18px;
+font-family: "Inter Tight-Medium", sans-serif;
+    }
+
 .feedback {
     outline: 1px solid rgb(70, 138, 79);
 }
