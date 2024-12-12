@@ -497,7 +497,7 @@ font-family: "Inter Tight-Medium", sans-serif;
 }
 
 .order {
-    margin-top: 100px;
+    padding-top: 100px;
 }
 
 .order-title {
@@ -522,22 +522,28 @@ font-family: "Inter Tight-Medium", sans-serif;
 }
 
 .order-form {
+    margin-left: 100px;
+    margin-right: 100px;
     display: flex;
-    justify-content: center;
-    gap: 40px;
+    justify-content: space-between;
+    gap: 24px;
 }
 
 .order-form-1 {
     background-color: #FBFBFB;
     border-radius: 30px;
-    width: 40%;
+    width: 45%;
     height: auto;
 }
 
 .order-form-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content:flex-start;
     background-color: #576F35;
     border-radius: 30px;
-    width: 40%;
+    width: 45%;
     height: auto;
 }
 
@@ -594,14 +600,13 @@ textarea {
 }
 
 .woman-pic {
-    width: 83%;
-    height: 273px;
+    width: 100vw;
     border-radius: 15px;
     object-fit: cover;
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
 }
 
 .order-descr-2 {
@@ -629,26 +634,25 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-left: 100px;
+    align-items: baseline;
     padding-top: 150px;
+    padding-left: 100px;
     padding-right: 100px;
-    align-items: flex-start;
 }
 
 .footer-left,
 .footer-center,
 .footer-right {
-    flex: 1;
     min-width: 200px;
 }
 
-.footer-center {
-    padding-left: 400px;
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:flex-end;
 }
 
-.footer-right {
-    padding-left: 100px;
-}
 
 .description {
     font-family: "Inter Tight-Medium", sans-serif;
@@ -665,10 +669,7 @@ footer {
     font-weight: 600;
     list-style: none;
     padding: 0;
-}
-
-.navigation li {
-    margin: 10px 0;
+    margin: 0;
 }
 
 .navigation a {
@@ -708,8 +709,6 @@ footer {
 
 .footer-1 {
     display: flex;
-
-
 }
 
 .footer-bottom {
