@@ -428,6 +428,7 @@ a {
 .reviews-block-h2 {
     background-color: rgb(251, 251, 251);
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
     font-family: "Inter Tight-SemiBold", sans-serif;
     font-weight: bold;
@@ -440,6 +441,7 @@ a {
 .reviews-block-h2-h2  {
     background-color: rgb(251, 251, 251);
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
     font-family: "Inter Tight-SemiBold", sans-serif;
     font-weight: bold;
@@ -461,8 +463,16 @@ a {
     justify-items: center;
     grid-template-columns: 1fr 1fr 1fr;
     height: 258px;
-    gap: 25px;
+    gap: 25px;*/
+    
 }
+
+.card-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;*/
+}
+
 .opinion-card1,
 .opinion-card2,
 .opinion-card3 {
@@ -474,7 +484,7 @@ a {
     background-color: #ffffff;
     border-radius: 40px;
     padding: 32px;
-    border-color: rgba(122, 49, 69, 0.3);
+    border-color: rgba(122, 49, 69, 0.3);*/
     
 }
 .name-card1,
@@ -484,6 +494,7 @@ display: inline;
 justify-content: center;
 font-size: 18px;
 font-family: "Inter Tight-Medium", sans-serif;
+margin: 10px 0;
     }
 
 .feedback {
