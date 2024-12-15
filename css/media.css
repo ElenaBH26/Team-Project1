@@ -1,25 +1,26 @@
-
-
- @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .nav-list {
         display: none;
-        
+
     }
+
     .burger-menu {
         display: block;
     }
-    
+
     .wrapper {
         margin-left: 32px;
         margin-right: 32px;
     }
+
     .logo {
         margin: 0;
     }
+
     .hero-title {
-    width: 704px;
-    height: 228px;
-    font-size: 54px;
+        width: 704px;
+        height: 228px;
+        font-size: 54px;
 
     }
 
@@ -30,7 +31,6 @@
     .right {
         width: 100%;
         height: 539px;
-
     }
 
     .left {
@@ -45,33 +45,121 @@
 }
 .guide {
     flex-direction: column;
+    }
 
-}
+    .guide-block {
+        height: auto;
+    }
 
 .green-block {
 width: 100%;
-}
+height: 699px;
+    }
 
 .purple-block {
 width: 100%;
 padding: 100px 64px 100px 64px;
-}
+    }
 
 .responsive-img {
     width: 640px;
     height: 640px;
-}
     }
 
- 
+
+.advertisement {
+    padding: 100px 16px 100px 16px;
+    }
+
+.discount-desckr {
+    font-size: 64px;
+    line-height: 70px;
+    }
+
+.vegetables {
+    padding: 100px 32px 100px 32px;
+    }
+
+
+.cards {
+    grid-template-columns: repeat(2, 1fr);
+    width: 704px;
+    height: 1193px;
+    gap: 10px;
+    }
+
+.card-wrapper{
+    gap: 10px;
+    width: 342px;
+    height: 379px;
+    padding: 32px 30px 32px 30px;
+    }
+.card > img {
+    width: 282px;
+    height: 243px;
+    }
+
+    .card {
+        border: none;
+    }
+
+    .order-form {
+        padding: 0;
+        margin-left: 70px;
+        margin-top: 50px;
+        flex-direction: column;
+        justify-content: flex-start;
+        justify-items: flex-start;
+        width: 100vw;
+    }
+
+    .order-title {
+        margin: 0;
+        font-size: 64px;
+        padding-right: 100px;
+        padding-left: 32px;
+    }
+
+    .order-descr {
+        margin: 0;
+        font-size: 16px;
+        padding-right: 100px;
+        padding-left: 32px;
+    }
+
+    .order-form-1 {
+        width: 80vw;
+    }
+
+    .order-form-2 {
+        width: 80vw;
+    }
+
+    .footer-right {
+        flex: 2;
+    }
+
+    .footer-1 {
+        padding-top: 100px;
+    }
+
+
+    }
 
 
 
-@media screen and  (min-width: 768px) {
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
     .burger-menu {
         display: none;
     }
-    
+
 }
 
 @media screen and (max-width: 375px) {
@@ -79,29 +167,31 @@ padding: 100px 64px 100px 64px;
     .hero {
         padding: 100px 0px 0px 0px;
     }
+
     .hero-title {
         width: 335px;
         height: 192px;
-        font-size: 12.80vw;
+        font-size: 11.8vw;;
         margin: 40px 0px;
-        }
-    .logo {
-        height: 3.20vw ;
     }
 
-        .hero-descr {
-            font-size: 4.27vw;
-        }
+    .logo {
+        height: 3.20vw;
+    }
 
-        .left {
-            display: flex;
-            gap: 20px;
-            flex-direction: column;
-            width: 100%;
-            height: auto;
-            padding-left: 20px;
-            padding-right: 20px;
-}
+    .hero-descr {
+        font-size: 4.27vw;
+    }
+
+    .left {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 
     .wrapper {
         margin-top: 20px;
@@ -114,36 +204,171 @@ padding: 100px 64px 100px 64px;
         min-height: 370px;
     }
 
-.purple-block {
-    padding: 40px 20px 40px 20px;
-}
+    .purple-block {
+        padding: 40px 20px 40px 20px;
+    }
 
 .green-block {
     padding: 80px 20px 80px 20px;
-}
+    height: 699px;
+    }
 
 
     .responsive-img {
         width: auto;
         height: 450px;
     }
+
     .guide-block {
-        width: auto;
-        height: 268px;
+        width: 100%;
+        height: auto;
         margin: 0;
     }
 
     .checklist-subtitle {
         font-size: 7.47vw;
     }
+
     .explanation {
         font-size: 3.73vw;
     }
+
     .list-steps {
         width: 335px;
         height: 76px;
     }
+
     .list-descr {
         font-size: 3.20vw;
     }
+
+    .advertisement {
+        padding: 80px 10px 80px 10px;
+        }
+        
+        .discount-desckr {
+        font-size: 48px;
+        line-height: 50px;
+            }
+    
+
+                .vegetables {
+                    padding: 80px 20px 80px 20px;
+                    }
+
+                    .vegetables-subtitle  {
+                        font-size: 48px ;
+                    }
+
+                    .vegetables-descr {
+                        font-size: 14px ;
+                    }
+
+                    .cards {
+                        grid-template-columns: repeat(1, 1fr);
+                        width: 334px;
+                        height: 2374px;
+                        gap: 20px;
+                        }
+
+                        .card-wrapper{
+                            gap: 10px;
+                            width: 334px;
+                            height: 379px;
+                            padding:  32px 26px 32px 26px;;
+                            }
+                        .card > img {
+                            width: 282px;
+                            height: 243px;
+                            }
+                        
+                            .card {
+                                border: none;
+                            }
+    
+    .order-form {
+        padding: 0;
+        margin-left: 20px;
+        margin-top: 40px;
+        flex-direction: column;
+        justify-content: flex-start;
+        justify-items: flex-start;
+        width: 100vw;
     }
+
+    .order-title {
+        margin: 0;
+        font-size: 48px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .order-descr {
+        margin: 0;
+        font-size: 14px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .order-form-1 {
+        width: 85vw;
+    }
+
+    .order-descr-1 {
+        font-size: 24px;
+    }
+
+    .order-form-2 {
+        width: 85vw;
+    }
+
+    .social-media {
+        font-size: 24px;
+    }
+
+    .footer {
+        padding-left: 20px;
+        gap: 40px;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+
+    .navigation {
+        font-size: 24px;
+    }
+
+    .phone {
+        font-size: 14px;
+    }
+
+    .adress {
+        font-size: 14px;
+    }
+
+    .footer-1 {
+        padding-top: 40px;
+    }
+
+    .footer-right {
+        align-items: flex-start;
+    }
+
+    .links a {
+        font-size: 12px;
+    }
+    .footer-bottom {
+        font-size: 12px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .order-title {
+        padding-right: 100px;
+        font-size: 70px;
+    }
+
+}
