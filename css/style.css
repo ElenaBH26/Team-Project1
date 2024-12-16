@@ -60,12 +60,6 @@ a {
 
 }
 
-.logo {
-    margin-left: 100px;
-    width: 15vh;
-
-}
-
 .burger-menu {
     display: flex;
     flex-direction: column;
@@ -428,6 +422,10 @@ a {
     width: 100%;
 
 }
+
+
+
+
 .reviews-block-h2 {
     background-color: rgb(251, 251, 251);
     display: flex;
@@ -470,15 +468,39 @@ a {
 .opinion-card2,
 .opinion-card3 {
     display: flex;
+    align-items: center;
     flex-direction: column;
     gap: 5px;
     width: 343px;
     height: 258px;
     background-color: #ffffff;
     border-radius: 40px;
-    padding: 32px;
-    border-color: rgba(122, 49, 69, 0.3);
+    border: 1px solid rgba(122, 49, 69, 0.3);
+    padding: 20px;
     
+}
+
+.opinion-wrapper > img {
+    border: dashed 1px rgb(224, 224, 224);
+}
+
+.opinion-wrapper {
+    width: 303px;
+    height: 218px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    margin: 8px 0px;
+    gap: 8px;
+}
+
+.content-opinion {
+    font-family: "Inter Tight-Medium", sans-serif;
+    color: rgba(20, 20, 20, 0.4);
+    font-weight: 500;
+    font-size: 16px;
+
 }
 .name-card1,
 .name-card2, 
@@ -487,6 +509,7 @@ display: inline;
 justify-content: center;
 font-size: 18px;
 font-family: "Inter Tight-Medium", sans-serif;
+
     }
 
 .feedback {
